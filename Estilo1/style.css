@@ -1,0 +1,88 @@
+/* Reseteo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff; /* Fondo totalmente blanco */
+  color: #000000;            /* Textos en negro */
+}
+
+/* Encabezado */
+header {
+  background-color: #a3d3e7; /* Fondo azul celeste pastel */
+  text-align: left;           /* Alineación del texto a la izquierda */
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 0.9rem;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #000080; 
+  text-align: left; 
+  padding: 12px 20px;
+}
+
+nav a {
+  color: #ffffff;            
+  text-decoration: underline;
+  margin-right: 15px;
+  font-size: 0.85rem;
+}
+
+/* Contenido Principal - Estructura vertical */
+main {
+  display: flex;
+  flex-direction: column;    /* Coloca las tarjetas una debajo de otra */
+  gap: 15px;                 /* Espacio vertical entre tarjetas */
+  padding: 20px;
+}
+
+/* Tarjetas alargadas */
+section {
+  background-color: #ffffff;
+  border: 1px solid #333333; /* Borde gris oscuro alrededor */
+  padding: 20px;
+  border-radius: 0;          /* Sin esquinas redondeadas */
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+/* Botones azules */
+button {
+  background-color: #0000ff;
+  color: #ffffff;            /* Texto blanco */
+  border: none;
+  border-radius: 0;          /* Sin bordes redondeados */
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
